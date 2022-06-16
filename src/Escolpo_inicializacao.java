@@ -11,11 +11,13 @@ public class Escolpo_inicializacao {
 		/* em java uma variavel nao pode ser usada se ela nao for iniciada */
 
 		double price = 400.00;
+		
 		double discount;
 
 		if (price < 200.00) {
 			discount = price * 0.1;
-		} else {
+		} 
+		else {
 			discount = 0;
 		}
 
